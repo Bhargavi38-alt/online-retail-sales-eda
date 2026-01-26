@@ -4,9 +4,6 @@
 ![Retail](https://img.shields.io/badge/Domain-Retail%20Analytics-orange)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-# 📊 Online Retail Sales EDA
-
-
 📊 Online Retail Sales – Exploratory Data Analysis (Python)
 
 📌 Project Overview
