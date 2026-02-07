@@ -1,5 +1,8 @@
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green)
+![SQL](https://img.shields.io/badge/SQL-Server-red)
+![Power%20BI](https://img.shields.io/badge/Power%20BI-Dashboarding-yellow)
+![DAX](https://img.shields.io/badge/DAX-Measures%20%26%20KPIs-purple)
 ![EDA](https://img.shields.io/badge/Project-Exploratory%20Data%20Analysis-purple)
 ![Retail](https://img.shields.io/badge/Domain-Retail%20Analytics-orange)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
@@ -86,16 +89,36 @@ Country
 
 - Align marketing with seasonal demand patterns
 
-🛠 Tools Used
+## SQL + Power BI Implementation
 
-- Python
+This project was also implemented using SQL Server and Power BI to simulate an
+enterprise analytics workflow.
 
-- Pandas
+📁 Folder: `sql_powerbi_analysis/`
 
-- Matplotlib
+This version focuses on:
+- Data cleaning and validation in SQL
+- KPI creation using DAX
+- Executive-style dashboards in Power BI
 
-- Jupyter Notebook
+## Tools & Technologies
+
+- Python (Pandas, NumPy)
+- SQL Server (SSMS)
+- Power BI
+  - Data Modeling
+  - DAX Measures
+  - Dashboarding
+
+  
+## Multiple Implementations
+
+This project was initially explored using Python (pandas) for data analysis and EDA.
+It was later reimplemented using SQL Server and Power BI to reflect an enterprise
+analytics workflow involving database-driven reporting and BI dashboards.
+
+📁 SQL + Power BI version: `sql_powerbi_analysis/`
+
 
 👩‍💻 Author
-
-Bhargavi Chakrapani — Aspiring Data Analyst
+Bhargavi Chakrapani — Data Analyst
