@@ -7,7 +7,7 @@
 ![Retail](https://img.shields.io/badge/Domain-Retail%20Analytics-orange)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-📊 Online Retail Sales – Exploratory Data Analysis (Python)
+📊 Exploratory Data Analysis (Python) & Business Intelligence (SQL + Power BI)
 
 📌 Project Overview
 
