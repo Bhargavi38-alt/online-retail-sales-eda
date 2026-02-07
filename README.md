@@ -11,23 +11,23 @@
 
 📌 Project Overview
 
-This project analyzes transactional data from a UK-based online retail store to uncover sales trends, customer behavior, and product performance. The goal is to generate data-driven insights to support business decision-making and improve retail operations.
+This project analyzes transactional data from a UK-based online retail business to uncover sales patterns, customer purchasing behavior, and product performance. The objective is to generate actionable, data-driven insights that support business decision-making and improve retail operations.
 
 🎯 Objectives
 
 - Identify sales trends and seasonal patterns
 
-- Discover popular and high-revenue products
+- Determine high-performing and revenue-generating products
 
-- Analyze customer purchasing behavior and loyalty
+- Analyze customer purchasing behavior and repeat buying patterns
 
 - Identify high-value (VIP) customers
 
-- Provide actionable business recommendations
+- Translate analytical findings into actionable business recommendations
 
 📁 Dataset
 
-Transactional retail data containing:
+The dataset contains transactional-level retail data with the following attributes:
 
 InvoiceNo
 
@@ -45,29 +45,29 @@ CustomerID
 
 Country
 
-🧹 Data Cleaning
+🧹 Data Cleaning & Preparation
 
-- Removed cancelled transactions
+- Removed cancelled and invalid transactions
 
 - Filtered negative quantities and prices
 
-- Handled missing values logically
+- Handled missing customer values using business logic
 
-- Created revenue feature (Quantity × UnitPrice)
+- Created a revenue feature (Quantity × UnitPrice) for financial analysis
 
 📈 Key Insights
 
-- Sales peak in November indicating strong seasonal demand
+- Sales peak during November, indicating strong seasonal demand
 
-- Revenue is driven by both product volume and pricing
+- Revenue is influenced by both product pricing and sales volume
 
-- A small group of products contributes most revenue
+- A small subset of products contributes disproportionately to total revenue
 
 - Customer spending follows a long-tail distribution
 
-- Top 10% of customers generate a large share of revenue
+- The top 10% of customers generate a significant share of overall revenue
 
-- Repeat buyers tend to spend significantly more
+- Repeat customers tend to spend substantially more than one-time buyers
 
 📊 Correlation Findings
 
@@ -75,50 +75,54 @@ Country
 
 - Positive correlation between unit price and revenue
 
-- Higher priced items tend to sell less frequently
+- Higher-priced products generally sell less frequently, indicating a trade-off between volume and price
 
 💡 Business Recommendations
 
-- Increase inventory before peak season
+- Increase inventory levels ahead of peak seasonal demand
 
-- Focus promotions on top revenue-generating products
+- Prioritize promotions for high-revenue products
 
-- Retain VIP customers through loyalty programs
+- Retain high-value customers through loyalty and rewards programs
 
-- Target repeat customers with early access deals
+- Target repeat customers with personalized and early-access offers
 
-- Align marketing with seasonal demand patterns
+- Align marketing and inventory planning with seasonal sales trends
 
 ## SQL + Power BI Implementation
 
-This project was also implemented using SQL Server and Power BI to simulate an
-enterprise analytics workflow.
+This project was also implemented using SQL Server and Power BI to simulate an enterprise analytics workflow.
 
-📁 Folder: `sql_powerbi_analysis/`
+📁 Folder: sql_powerbi_analysis/
 
 This version focuses on:
+
 - Data cleaning and validation in SQL
+
 - KPI creation using DAX
+
 - Executive-style dashboards in Power BI
 
 ## Tools & Technologies
 
 - Python (Pandas, NumPy)
-- SQL Server (SSMS)
-- Power BI
-  - Data Modeling
-  - DAX Measures
-  - Dashboarding
 
-  
+- SQL Server (SSMS)
+
+- Power BI
+
+- Data Modeling
+
+- DAX Measures
+
+- Dashboarding
+
 ## Multiple Implementations
 
-This project was initially explored using Python (pandas) for data analysis and EDA.
-It was later reimplemented using SQL Server and Power BI to reflect an enterprise
-analytics workflow involving database-driven reporting and BI dashboards.
+This project was initially explored using Python (pandas) for data analysis and EDA. It was later reimplemented using SQL Server and Power BI to reflect an enterprise analytics workflow involving database-driven reporting and BI dashboards.
 
-📁 SQL + Power BI version: `sql_powerbi_analysis/`
-
+📁 SQL + Power BI version: sql_powerbi_analysis/
 
 👩‍💻 Author
+
 Bhargavi Chakrapani — Data Analyst
